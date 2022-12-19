@@ -1,0 +1,129 @@
+         HTML
+
+
+## html form 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head Section Content -->
+<head>
+
+	<!-- Page title -->
+	<title>Basic form design using HTML</title>
+</head>
+
+<!-- Body Section Content -->
+<body>
+
+	<!-- Heading Content -->
+	<h1>Shashibhushan Kumar</h1>
+
+	<h3>Basic form design using HTML</h3>
+
+	<!-- Creating a from -->
+	<form action="#">
+		<fieldset>
+			<legend>Personal Details</legend>
+
+			<!-- Label and input field -->
+			<p>
+				<label>First name : <input name="firstName" /></label>
+			</p>
+
+			<p>
+				<label>Last name : <input name="lastName" /></label>
+			</p>
+
+			<!-- Label and radio button field -->
+			<p>
+				Gender :
+				<label><input type="radio" name="gender"
+					value="male" /> Male</label>
+
+				<label><input type="radio" name="gender"
+					value="female" /> Female</label>
+
+                <label><input type="radio" name="gender"
+                    value="other"/>Other</label>    
+			</p>
+
+			<p>
+				<label>Email : <input type="email"
+					name="email" /></label>
+			</p>
+
+			<p>
+				<label>Date of Birth : <input type="date"
+					name="birthDate"></label>
+			</p>
+
+			<!-- Label and textarea field -->
+			<p>
+				<label>Address :
+					<br />
+					<textarea name="address" cols="30"
+						rows="3"></textarea>
+				</label>
+			</p>
+
+			<!-- Creating a button -->
+			<p>
+				<button type="submit">Submit</button>
+			</p>
+		</fieldset>
+	</form>
+</body>
+
+</html>                
+
+
+## html Entities
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Entities</title>
+</head>
+<body>
+    <h1>Html Entities</h1>
+    <div>
+        <p>This is a paragraph </p>
+    </div>
+
+    <div>
+        <p>This is a another   &nbsp;     paragraph</p>
+        <p>paragraph is written like this &lt;p&gt;</p>
+        <p>pound is written like this &pound;</p>
+        <p>This is like the &#8479; &#8485;</p>
+    </div>
+</body>
+</html>
+
+
+## html semantic Tag .
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tag </title>
+</head>
+<body>
+    <h2>Semantic Element </h2>
+    <details>
+        <summary>I have keys but no doors . i have space but no room . you can enter but  I can not lives</summary>
+         A keybord . A keybord . A keybord . A keybord . A keybord .
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem labore quisquam consectetur odit quod atque facilis rem. Doloremque, adipisci, quia mollitia voluptatem veritatis quis nesciunt, similique sit quisquam maiores debitis?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores laudantium corrupti! Esse consequatur magni doloribus maiores, repudiandae maxime repellat praesentium deleniti velit in id rem illum similique voluptatem aperiam recusandae, porro sequi qui?
+         
+    </details>
+</body>
+</html>
